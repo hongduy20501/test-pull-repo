@@ -6,7 +6,7 @@
     "start:prod": "node lib/index.js",
     "docker:release": "npm run docker:build && npm run docker:push",
     "docker:build": "docker-compose -f build.yml build",
-    "docker:push": "docker-compose -f build.yml push"
+    "docker:push": "docker-compose -f build.yml push" abc
   },
   "author": "",
   "license": "ISC",
