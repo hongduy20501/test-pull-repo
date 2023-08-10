@@ -1,6 +1,6 @@
 {
   "name": "@elofun/eloplay-gamehub",
-  "version": "0.0.10-j",
+  "version": "0.0.10-k",
   "description": "",
   "scripts": {
     "start:prod": "node lib/index.js",

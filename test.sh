@@ -16,7 +16,7 @@ for item in {a..z};do
       echo "$next_char"
       version=$(echo "$a" | grep -Eo [0-9.-]+)$next_char
       echo "$version"
-      cat package.json | sed -E 's/("version":) (.+)/\1 "'${version}'"/' 
+      cat package.json | sed -i -E 's/("version":) (.+)/\1 "'${version}'"/' 
     fi
   fi
 done
